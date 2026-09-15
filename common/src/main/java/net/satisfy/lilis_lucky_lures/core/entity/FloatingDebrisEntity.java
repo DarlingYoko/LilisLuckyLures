@@ -90,7 +90,7 @@ public class FloatingDebrisEntity extends Entity {
     }
 
     private boolean isAboveWater() {
-        return level().getBlockState(this.blockPosition().below()).getFluidState().isSource();
+        return level().getFluidState(this.blockPosition().below()).is(net.minecraft.tags.FluidTags.WATER);
     }
 
     @Override

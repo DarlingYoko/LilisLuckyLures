@@ -18,7 +18,6 @@ public class EntityTypeRegistry {
     private static final DeferredRegister<BlockEntityType<?>> BLOCK_ENTITY_TYPES = DeferredRegister.create(LilisLuckyLures.MOD_ID, Registries.BLOCK_ENTITY_TYPE);
     public static final DeferredRegister<EntityType<?>> ENTITY_TYPES = DeferredRegister.create(LilisLuckyLures.MOD_ID, Registries.ENTITY_TYPE);
 
-    public static final RegistrySupplier<EntityType<DynamiteEntity>> DYNAMITE = registerEntityType("dynamite", () -> EntityType.Builder.<DynamiteEntity>of(DynamiteEntity::new, MobCategory.MISC).sized(0.25f, 0.25f).build(new LilisLuckyLuresIdentifier("dynamite").toString()));
     public static final RegistrySupplier<EntityType<ThrownSpearEntity>> THROWN_SPEAR = registerEntityType("thrown_spear", () -> EntityType.Builder.<ThrownSpearEntity>of(ThrownSpearEntity::new, MobCategory.MISC).sized(0.25f, 0.25f).build(new LilisLuckyLuresIdentifier("thrown_spear").toString()));
 
     public static final RegistrySupplier<EntityType<FloatingDebrisEntity>> FLOATING_DEBRIS = registerEntityType("floating_debris", () -> EntityType.Builder.of(FloatingDebrisEntity::new, MobCategory.CREATURE).sized(2f, 2.5f).build(new LilisLuckyLuresIdentifier("floating_debris").toString()));

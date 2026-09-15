@@ -20,7 +20,6 @@ public class TabRegistry {
             .displayItems((parameters, output) -> {
                 output.accept(ObjectRegistry.REDSTONE_COIL.get());
                 output.accept(ObjectRegistry.FISH_BAG.get());
-                output.accept(ObjectRegistry.DYNAMITE.get());
                 output.accept(ObjectRegistry.SPEAR.get());
                 output.accept(ObjectRegistry.FISHING_NET.get());
                 output.accept(ObjectRegistry.BAMBOO_FISHING_ROD.get());
