@@ -42,7 +42,6 @@ public class LilisLuckyLuresClient {
         EntityRendererRegistry.register(EntityTypeRegistry.FLOATING_BOOKS, FloatingBooksRenderer::new);
         EntityRendererRegistry.register(EntityTypeRegistry.RIVER_FISH_POOL, RiverFishPoolRenderer::new);
         EntityRendererRegistry.register(EntityTypeRegistry.OCEAN_FISH_POOL, OceanFishPoolRenderer::new);
-        EntityRendererRegistry.register(EntityTypeRegistry.DYNAMITE, RotatingThrownItemRenderer::new);
         EntityRendererRegistry.register(EntityTypeRegistry.THROWN_SPEAR, ThrownSpearRenderer::new);
     }
 

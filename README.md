@@ -18,7 +18,7 @@
 
 <br>
 
-Let's go fishing. Pack your gear: a Fishing Rod, a Fishing Hat… and maybe some Dynamite.
+Let's go fishing. Pack your gear: a Fishing Rod, a Fishing Hat… and see what bites.
 
 <br>
 
@@ -46,7 +46,6 @@ Not every catch has scales.
 
 - Bamboo Fishing Rod  
 - Spear for direct action  
-- Dynamite for bold anglers  
 - Redstone-powered fishing contraptions  
 
 <br>
